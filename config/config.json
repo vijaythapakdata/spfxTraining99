@@ -9,10 +9,19 @@
           "manifest": "./src/webparts/reactUnderstanding/ReactUnderstandingWebPart.manifest.json"
         }
       ]
+    },
+    "property-pane-webpart-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/propertyPaneWebpart/PropertyPaneWebpartWebPart.js",
+          "manifest": "./src/webparts/propertyPaneWebpart/PropertyPaneWebpartWebPart.manifest.json"
+        }
+      ]
     }
   },
   "externals": {},
   "localizedResources": {
-    "ReactUnderstandingWebPartStrings": "lib/webparts/reactUnderstanding/loc/{locale}.js"
+    "ReactUnderstandingWebPartStrings": "lib/webparts/reactUnderstanding/loc/{locale}.js",
+    "PropertyPaneWebpartWebPartStrings": "lib/webparts/propertyPaneWebpart/loc/{locale}.js"
   }
 }

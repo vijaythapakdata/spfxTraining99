@@ -1,0 +1,29 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "10188b92-2867-4583-afa4-cbcabfa601ff",
+  "alias": "PropertyPaneWebpartWebPart",
+  "componentType": "WebPart",
+
+ 
+  "version": "*",
+  "manifestVersion": 2,
+
+  "requiresCustomScript": false,
+  "supportedHosts": ["SharePointWebPart", "TeamsPersonalApp", "TeamsTab", "SharePointFullPage"],
+  "supportsThemeVariants": true,
+
+  "preconfiguredEntries": [{
+    "groupId": "5c03119e-3074-46fd-976b-c60198311f70", 
+    "group": { "default": "Advanced" },
+    "title": { "default": "PropertyPaneWebpart" },
+    "description": { "default": "PropertyPaneWebpart description" },
+    "officeFabricIconFontName": "Page",
+    "properties": {
+      "ListName": "",
+      "ToggleOption":false,
+      "DepartmentOptions":"--select--",
+      "SliderOptions":1,
+      "GenderOptions":""
+    }
+  }]
+}
