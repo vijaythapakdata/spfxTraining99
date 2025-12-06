@@ -17,11 +17,21 @@
           "manifest": "./src/webparts/propertyPaneWebpart/PropertyPaneWebpartWebPart.manifest.json"
         }
       ]
+    },
+    "spfx-functional-form-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/spfxFunctionalForm/SpfxFunctionalFormWebPart.js",
+          "manifest": "./src/webparts/spfxFunctionalForm/SpfxFunctionalFormWebPart.manifest.json"
+        }
+      ]
     }
   },
   "externals": {},
   "localizedResources": {
     "ReactUnderstandingWebPartStrings": "lib/webparts/reactUnderstanding/loc/{locale}.js",
-    "PropertyPaneWebpartWebPartStrings": "lib/webparts/propertyPaneWebpart/loc/{locale}.js"
+    "PropertyPaneWebpartWebPartStrings": "lib/webparts/propertyPaneWebpart/loc/{locale}.js",
+    "SpfxFunctionalFormWebPartStrings": "lib/webparts/spfxFunctionalForm/loc/{locale}.js",
+    "ControlStrings": "node_modules/@pnp/spfx-controls-react/lib/loc/{locale}.js"
   }
 }
